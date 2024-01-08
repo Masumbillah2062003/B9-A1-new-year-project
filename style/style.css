@@ -222,6 +222,8 @@
 .holiday-sale-function{
     margin-top: 120px;
     text-align: center;
+    position: relative;
+    height: 995px;
 }
 .holiday-sale-function-descriptin > .functional{
     color: #070211;
@@ -255,7 +257,14 @@
     margin-top: 65px;
     position: absolute;
     padding: 50px 0px;
+    z-index: -100;
+    
 }
+.holiday-all-image > .red-bg{
+    position: absolute;
+    margin: 433px 0px;
+    width: 1240px;
+} 
 .holiday-all-image > .gift{
     position: absolute;
     width: 600px;
@@ -269,8 +278,51 @@
     position: absolute;
     margin: 72px 654px;
 }
-.holiday-all-image > .red-bg{
-    position: absolute;
-    margin: 433px 0px;
-    width: 1240px;
+
+/* awesome-portfolio-images-section css related style */
+.awesome-portfolio-images-section{
+    margin-top: 120px;
+}
+.the-best-gifts{
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+.awesome-portfolio-title{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 22px 0;
+}
+.awesome-portfolio-description{
+    width: 895px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.awesome-images-box{
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+.awesome-images-box > .awesome-images-zoom{
+    overflow: hidden;
+    width: 397px;
+    height: 415px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.awesome-images-zoom > img{
+    width: 397px;
+    height: 415px;
+    transition: all 1s ease;
+}
+.awesome-images-zoom:hover > img{
+    transform: scale(2);
 }
