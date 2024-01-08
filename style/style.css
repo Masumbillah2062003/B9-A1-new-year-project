@@ -18,6 +18,7 @@
     font-weight: 700;
     text-transform: uppercase;
     border: 2px solid transparent;
+    transition: all 0.5s ease;
 }
 .btn-primary:hover{
     background-color: transparent;
@@ -70,7 +71,7 @@
 /* all-categories-section related style */
 .all-categories-section{
     margin: 120px;
-    padding: 0 130px;
+    text-align: center;
 
 }
 .all-categories-section > .parcent-off{
@@ -105,12 +106,12 @@
 /* welcome party image ralated style */
 .welcome-party{
     margin-top: 120px;
-    height: 80vh;
+    height: 75vh;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../Images/Group\ 70.png'), url('../Images/Vectorrr.png');
-    background-position: center, center right 10%;
+    background-position: center, center right 15%;
     background-size: cover, 25%;
     background-repeat: no-repeat, no-repeat;
-    padding: 125px 490px 140px 125px;
+    padding: 75px 490px 142px 125px;
 }
 .welcome-party > .welcome-midnight-title{
     color: #FFF;
