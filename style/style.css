@@ -326,3 +326,118 @@
 .awesome-images-zoom:hover > img{
     transform: scale(2);
 }
+
+/* subscribe-newsletter-section css related style */
+.subscribe-newsletter-section{
+    margin-top: 120px;
+    padding: 80px 212px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+.newsletter-box-img > img{
+    height: 150px;
+    width: 150px;
+}
+.subscribe-description > .subscribe-description-title{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 40px 0px 20px 0;
+}
+.subscribe-description > .subscribe-description-p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.subscribe-searchbox{
+    margin-top: 48px;
+}
+.subscribe-searchbox > input[type="email"]{
+    width: 438px;
+    padding: 25px 30px;
+    background-color: #FFF;
+    border: 0;
+    border-radius: 50px 0px 0px 50px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+}
+.subscribe-searchbox > input[type="button"]{
+    padding: 24px 50px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 0;
+    position: relative;
+    right: 6px;
+    cursor: pointer;
+}
+.footer{
+    height: 609px;
+    background: #070211;
+    padding: 120px 140px;
+}
+.footer > hr{
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    border: 0;
+}
+.footer-box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.footer-box1 > .footer-box1-description > p{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 400px;
+}
+.footer-box1 > .footer-contract{
+    margin-right: 135px;
+}
+.footer-box1 > .footer-contract > a{
+    text-decoration: none;
+    display: block;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-contract > a > img{
+    margin-right: 10px;
+}
+
+.footer-icon{
+    padding: 48px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer-box3{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box3 > p{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
